@@ -28,9 +28,9 @@
       fit
       highlight-current-row
     >
-      <!-- <el-table-column align="center" label="Id" width="95">
+      <el-table-column align="center" label="Id" width="95">
         <template slot-scope="scope">{{ scope.$index }}</template>
-      </el-table-column>-->
+      </el-table-column>
       <el-table-column label="Title">
         <template slot-scope="scope">{{ scope.row.title }}</template>
       </el-table-column>
